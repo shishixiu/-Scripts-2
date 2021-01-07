@@ -18,8 +18,8 @@ jobs:
     env:
       YOUTH_START: ${{ secrets.YOUTH_START }}
       YOUTH_END: ${{ secrets.YOUTH_END }}
-      YOUTH_START2: ${{ secrets.YOUTH_START }}
-      YOUTH_END2: ${{ secrets.YOUTH_END }}:  
+      YOUTH_START2: ${{ secrets.YOUTH_START2 }}
+      YOUTH_END2: ${{ secrets.YOUTH_END2 }}:  
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js 12.x
