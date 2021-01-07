@@ -30,10 +30,10 @@ jobs:
           
       - name: '运行 【中青看看赚任务】'
         if: env.YOUTH_START
-            env.YOUTH_END
         run: |
           node Task/youth_gain.js
         env:
           YOUTH_START: ${{ secrets.YOUTH_START }}
           YOUTH_END: ${{ secrets.YOUTH_END }}
+
 
